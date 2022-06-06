@@ -1,0 +1,170 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.login-box {
+    height: 400pxpx;
+    width: 250pxpx;
+    background-color: rgb(65, 62, 65);
+    padding: 25px 25px;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px;
+    color: white;
+
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn {
+    
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    margin: 10px 50px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 25px;
+    
+}
+.sign-up {
+    text-align: center;
+    color: white;
+}
+.span-1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+.body-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.registration {
+    border-bottom: 5px solid #71b7e6;
+    padding: 13px;
+}
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+.input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 -20px);
+}
+.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.input-1 {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    
+}
+.input-1:focus,
+.input-1:valid{
+    border-color: #9b59b6;
+}
+.category {
+    font-size: 20px;
+}
+.gender {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.gender-details {
+    margin: 20px 40px;
+}
+.btn-2 {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    padding: 10px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn-2:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+@media (max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+    .registration {
+        border-bottom: 5px solid #71b7e6;
+        padding: 15px;
+    }
+    .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .gender {
+        display: block;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar {
+        width: 0;
+    }
+
+}
+
+
+
+
+ 
